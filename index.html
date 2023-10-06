@@ -6,9 +6,11 @@
 </head>
 <body>
     <h1>Sentiment Analysis Chatbot</h1>
-    <form id="chat-form">
+    
+    <form action='/predict' method="post" class="col s12" id = "chat-form">
         <input type="text" id="user-input" placeholder="Type your message...">
-        <button type="submit">Send</button>
+          <button type="submit" class="btn-large waves-effect waves-light orange">Send Sentiment Analysis</button>
+      </div>
     </form>
     <div id="chat-container"></div>
 </body>
