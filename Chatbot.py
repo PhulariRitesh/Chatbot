@@ -115,7 +115,7 @@ data = [
     ("It's decent, nothing too special.", "neutral"),
     ("I'm thrilled with the results!", "positive"),
     ("I'm utterly disgusted.", "negative"),
-    ("I'm indifferent to this.", "neutral")
+    ("I'm indifferent to this.", "neutral"),
     ("What's wrong with you.","negative")
 ]
 
