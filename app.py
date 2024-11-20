@@ -28,7 +28,7 @@ def predict_sentiment(user_input):
     padded_sequence = pad_sequences(sequence, padding='post', maxlen=100)
 
     # Predict sentiment
-    sentiment_probabilities = best_model.predict(padded_sequence)[0]
+    sentiment_probabilities = Chat.predict(padded_sequence)[0]
     predicted_sentiment = np.argmax(sentiment_probabilities)
 
     return list(sentiment_mapping.keys())[list(sentiment_mapping.values()).index(predicted_sentiment)]
